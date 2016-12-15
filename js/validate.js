@@ -1,30 +1,30 @@
 function validate()  
 {
 
-   if( document.myForm.Name.value == "" ) 
+   if( document.myForm.name.value == "" ) 
    {
       alert( "Please provide your name!" );
-      document.myForm.Name.focus() ;
+      document.myForm.name.focus() ;
       return false;
    }
 
-   if( document.myForm.Email.value == "" )
+   if( document.myForm.email.value == "" )
    {
       alert( "Please provide your Email!" );
-      document.myForm.Email.focus() ;
+      document.myForm.email.focus() ;
       return false;
    }
 
-   if( document.myForm.Phone.value == "" ||
-   isNaN( document.myForm.Phone.value ) ||
-   document.myForm.Phone.value.length != 10 )
+   if( document.myForm.phone.value == "" ||
+   isNaN( document.myForm.phone.value ) ||
+   document.myForm.phone.value.length != 10 )
    {
       alert( "Please provide a phone number in the format ##########." );
-      document.myForm.Phone.focus() ;
+      document.myForm.phone.focus() ;
       return false;
    }
 
-   if( document.myForm.Message.value == "" )
+   if( document.myForm.message.value == "" )
    {
       alert( "Please leave us a message!" );
       return false;

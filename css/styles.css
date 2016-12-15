@@ -1,6 +1,5 @@
 /* BASE */
 
-/*Adding a comment*/
 
 body {
 	background-color: #99ffff;
@@ -49,7 +48,8 @@ nav a:hover {
 
 .thumb img {
 	float: left;
-
+	max-width: 300px;
+	max-height: 300px;
 }
 
 .container {
@@ -57,3 +57,15 @@ nav a:hover {
 	width: 80%;
 	max-width: 960px; 
 }
+
+/*Current Menu Highlight*/
+
+li .active {
+	background-color: #004d4d;
+	color: #ffff80;
+}
+
+h1 {
+	color: black;
+}
+

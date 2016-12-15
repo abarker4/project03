@@ -2,8 +2,9 @@
 
     <!-- Navigation -->
     <?php 
+        $pageTitle = "Homepage";
         include "inc/top-part.inc.php";
-    	include "inc/nav.inc";
+    	include "inc/nav.inc.php";
     ?>
 
     <!-- <nav class="main-menu">
@@ -176,6 +177,6 @@ $(function() {
 });
 </script>
 
-</body>
-
-</html>
+<?php
+include 'inc/footer.inc';
+?>

@@ -4,13 +4,6 @@
 	<meta charset="utf-8">
 	<title><?php echo $pageTitle ?></title>
 	<link rel="stylesheet" href="css/styles.css">
-
-	<!--this doesn't work-->
-	<?php if ($pageTitle == 'Contact Form') 
-	{
-		echo '<script src="js/validate.js"></script>';
-	}
-	?> 
 	
 </head>
 <body>

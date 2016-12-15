@@ -1,10 +1,7 @@
 <?php 
   $pageTitle = 'Contact Form';
   include 'inc/top-part.inc.php';
-?>
-
-<?php 
-include "inc/nav.inc";
+  include "inc/nav.inc.php";
 ?>
 
 <script type="text/javascript" src="js/validate.js"></script>
