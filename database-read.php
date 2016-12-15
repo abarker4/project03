@@ -5,12 +5,8 @@
 
 	$connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
-
 	// 2. Perform database query
-	$query  = "SELECT * FROM friends";
-	
-
-
+	$query  = "SELECT * FROM website";
 	$result = mysqli_query($connection, $query);
 	
 ?>
@@ -18,21 +14,21 @@
 <!doctype html>
 <html>
 <head>
-	<title>Phonebook</title>
+	<title>Contact Form</title>
 </head>
 <body>
 
-	<h1>Phonebook</h1>
-
+	<h1>Contact Form</h1>
 
 
 	<table border>
 
 	<tr>
 		<th>ID</th>
-		<th>First Name</th>
-		<th>Last Name</th>
+		<th>Name</th>
+		<th>Email</th>
 		<th>Phone Number</th>
+		<th>Message</th>
 	</tr>
 
 <?php
@@ -43,9 +39,10 @@
 
 		<tr>
 			<td><?php echo $pages["id"]; ?></td>
-			<td><?php echo $pages["first_name"]; ?></td>
-			<td><?php echo $pages["last_name"]; ?></td>
+			<td><?php echo $pages["name"]; ?></td>
+			<td><?php echo $pages["email"]; ?></td>
 			<td><?php echo $pages["phone"]; ?></td>
+			<td><?php echo $pages["message"]; ?></td>
 		</tr>
 
 <?php } ?>

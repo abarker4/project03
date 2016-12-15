@@ -5,14 +5,15 @@ $email = Trim(stripslashes($_POST['email']));
 $phone = Trim(stripslashes($_POST['phone']));
 $message = Trim(stripslashes($_POST['message']));
 
+$file = fopen("debug.txt","w");
+echo fwrite($file, "Name: " . $name . " Email: " . $email . " Phone: " . $phone . " Message:" . $message);
+fclose($file);
 
-$dbhost = "localhost";
-$dbuser = "contact-form";
-$dbpass = "coffee";
-$dbname = "contact-form";
+
+include 'db-info.php';
 
 // Create connection
-$connection = new mysqli($dbhost, $dbuser, $dbpass, $database);
+$connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 
 // Check connection
 if ($connection->connect_error) {
@@ -20,7 +21,7 @@ if ($connection->connect_error) {
 } 
 echo "Connected successfully";
 
-$query = "INSERT INTO website (Name, Email, Phone, Message) VALUES ('$name', '$email', '$phone', '$message')";
+$query = "INSERT INTO website (name, email, phone, message) VALUES ('$name', '$email', '$phone', '$message')";
 
 $result = mysqli_query($connection, $query);
 

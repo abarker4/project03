@@ -1,0 +1,59 @@
+/* BASE */
+
+/*Adding a comment*/
+
+body {
+	background-color: #99ffff;
+	font-family: "century gothic", helvetica, sans-serif; 
+	}
+
+body form {
+;
+}	
+
+form .box {
+	margin: 10px;
+	padding: 3px;
+	background-color: #00cccc;
+}
+
+form a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #004d4d;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px;
+	margin: auto 10px;
+}
+
+nav ul {
+	text-align: center;
+	background-color: #ffff80;
+}
+
+nav a {
+	text-decoration: none;
+	padding: 20px;
+	font-weight: bold;
+	color: #004d4d;
+	font-size: 1.1em;
+}
+
+nav a:hover {
+	color: #660066;
+}
+
+.thumb img {
+	float: left;
+
+}
+
+.container {
+	margin: 0 auto;
+	width: 80%;
+	max-width: 960px; 
+}
