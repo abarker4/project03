@@ -4,15 +4,15 @@
 body {
 	background-color: #99ffff;
 	font-family: "century gothic", helvetica, sans-serif; 
-	}
+}
 
-body form {
-;
-}	
 
 form .box {
 	margin: 10px;
 	padding: 3px;
+}
+
+form {
 	background-color: #00cccc;
 }
 
@@ -20,6 +20,13 @@ form a {
 	font-weight: bold;
 	text-decoration: none;
 	color: #004d4d;
+}
+
+nav {
+	position: fixed; /* required - magic */
+	top: 0; /* required - makes sure the menu sits where it's supposed to sit */
+	z-index: 1000; /* required - makes sure the menu doesn't get covered by anything else */
+	width: 100%; /* required - makes the menu go all the way across the viewport */
 }
 
 nav li {
@@ -32,6 +39,8 @@ nav li {
 nav ul {
 	text-align: center;
 	background-color: #ffff80;
+	margin: 0;
+	padding-left: 0;
 }
 
 nav a {
@@ -46,26 +55,232 @@ nav a:hover {
 	color: #660066;
 }
 
+a {
+	font-weight: bold;
+	color: #004d4d;
+}
+
+a:hover {
+	color: #660066;
+}
+
 .thumb img {
 	float: left;
-	max-width: 300px;
-	max-height: 300px;
+	max-width: 200px;
+	max-height: 200px;
+	border: 2px black;
 }
 
 .container {
 	margin: 0 auto;
 	width: 80%;
 	max-width: 960px; 
+	padding-top: 25px;
 }
+
+h2 a {
+	text-decoration: none;
+	color: #004d4d;
+}
+
+h2 a:hover {
+	color: #660066;
+}
+
+img {
+	margin: 10px;
+}
+
+/* MODULES */
 
 /*Current Menu Highlight*/
 
-li .active {
+.active {
 	background-color: #004d4d;
+}
+
+.active a {
 	color: #ffff80;
 }
 
-h1 {
-	color: black;
+.description {
+	float: right;
 }
 
+.z-area2 {
+	padding: 20px;
+	background-color: #00cccc;
+	text-align: center;
+	display: inline-block;
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.z-area1 {
+	padding: 10px;
+}
+
+.z-area2 a {
+	text-decoration: none;
+}
+
+.z-area3 p {
+	float: left;
+	max-width: 50%;
+	text-align: left;
+	background-color: #00cccc;
+	margin: 10px;
+	padding: 10px;
+}
+
+.z-area4 {
+	padding: 40px;
+	background-color: #ffff80;
+	text-align: center;
+	display: inline-block;
+	float: right;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 2em;
+}
+
+.z-area4 a {
+	text-decoration: none;
+}
+
+.f-area1 {
+	padding: 10px;
+	display: inline-block;
+}
+
+.f-area2 {
+	padding: 20px;
+	background-color: #80ff80;
+	text-align: center;
+	display: inline-block;
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.f-area2 a {
+	color: #001a00;
+	text-decoration: none;
+}
+
+.f-area3 {
+	max-width: 100%;
+	display: inline-block;
+}
+
+.f-area3 p {
+	display: inline;
+	padding-top: 10px;
+}
+
+.f-area3 img {
+	float: left;
+	padding-bottom: 30px;
+	padding-right: 15px;
+}
+
+.f-area3 h3 {
+	padding-left: 15px;
+	font-weight: bold;
+}
+
+
+.f-area3 h2 {
+	text-align: center;
+}
+
+.platform-idea {
+	width: 100%;
+	display: inline-block;
+}
+
+.platform-idea ul {
+	padding-top: 20px;
+	margin-left: 50px;
+	padding-left: 20px;
+	font-size: 1.1em
+}
+
+.platform-idea img {
+	padding-right: 30px;
+}
+
+.platform-idea h3 {
+	margin-top: 0px;
+}
+
+.platform-idea a {
+	text-decoration: none;
+}
+.f-area4 {
+	padding: 20px;
+	background-color: #00cccc;
+	text-align: center;
+	display: inline;
+	float: right;
+	max-width: 35%;
+}
+
+.f-area4 a {
+	color: #001a00;
+	text-decoration: none;
+}
+
+.hiking li {
+	list-style-type: none;
+}
+
+.content {
+	text-align: left;
+	overflow: auto;
+}
+
+.platform-menu {
+	z-index: 1000; /* required - makes sure the menu doesn't get covered by anything else */
+	width: 100%; /* required - makes the menu go all the way across the viewport */
+	background-color: #ffad33; 
+	display: inline-block;
+}
+
+.platform-menu ul {
+	/* standard removal of UL styles */
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none;
+
+	/* required - get LIs to line-up side-by-side */
+	display: flex;
+	justify-content: center; /* optional - lookup lots of options */
+}
+
+.platform-menu a { 
+	/* typical - make links look/act like buttons */
+	display: block;
+	padding: 15px;
+	color: #001a00;
+	text-decoration: none;
+}
+
+.logo {
+	float: left;
+	width: 40%;
+	height: auto;
+}
+
+.background-photo img {
+	max-width: 100%;
+}
+
+#intro {
+	background-color: #99ffff;
+}
+
+#accomplishments {
+	background-color: #e6ffff; 
+}

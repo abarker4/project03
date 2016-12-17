@@ -4,6 +4,10 @@
   include "inc/nav.inc.php";
 ?>
 
+<div class="container">
+
+<h1>Contact Form</h1>
+
 <script type="text/javascript" src="js/validate.js"></script>
 
 	<form method="post" action="database-write.php" name="myForm" onsubmit="return(validate());">
@@ -35,10 +39,6 @@
 		<div>
 			<br>
 			<input type="submit" value="Send">
-		</div>
-
-		<div>
-			<p>Or Go <a href=".">Back to the Index</a></p>	
 		</div>
 
 	</form>	

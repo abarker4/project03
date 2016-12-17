@@ -7,8 +7,4 @@
 	
 </head>
 <body>
-<div class="container">
 
-	<header>
-		<h1><?php echo $pageTitle ?></a></h1>
-	</header>

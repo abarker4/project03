@@ -1,11 +1,13 @@
-
-
-    <!-- Navigation -->
     <?php 
         $pageTitle = "Homepage";
         include "inc/top-part.inc.php";
-    	include "inc/nav.inc.php";
     ?>
+    <link rel="stylesheet" href="css/long-scrolly.css">
+    <?php 
+        include "inc/nav.inc.php";
+    ?>
+
+    <div class="container">
 
     <!-- <nav class="main-menu">
         <ul>
@@ -17,56 +19,54 @@
 
 
     <!-- Top Section -->
-    <section id="first">
-        <div class="container">
+    <section id="intro">
+       
 
         	<div class="z-area1">
-            	<h1><a href="#first"><img class="logo" src="images/logo.png" alt="logo"></a></h1>
+            	<h1><a href="#intro"><img class="logo" src="images/logo.png" alt="logo"></a></h1>
             </div>
+
             <div class="z-area2">
-            	<a href="#platform">Read More About Stein's Platform</a>
+            	<a href="#accomplishments">Read More About Alizah's Accomplishments</a>
             </div>
+
             <div class="background-photo">
-                <img src="images/background.jpg" alt="jill">
+                <img src="images/sun holding.jpg" alt="Squishing the sun like a squish a challenge">
             </div>
+
             <div class="z-area3">
-                <p>Support Jill Stein's people-powered campaign! 
-                Join with thousands of your neighbors to build the momentum for real change. Support Jill Stein's people-powered campaign today! Any amount you give will go to support the candidate who puts people, planet, and peace over profit—every time.
+                <p>Alizah is a member of the Class of 2017 at the University of Rochester in Western New York. She is completing a Bachelors of Art in Psychology with clusters in Film and Computer Science. She is also a player on the Women's Ultimate Frisbee Team where she additionally serves as the team's business manager and runs the social media accounts.
                 </p>
             </div>
+
             <div class="z-area4">
-                <a href="http://www.jill2016.com/donate">Donate Now!</a>
+                <a href="contact-form.php">Contact Now!</a>
             </div>
 
 
 
-            <div class="content">
+        
 
-                
-
-            </div><!-- .content -->
-
-       </div><!-- .container -->
+    
 
     </section>
 
     <!-- Second Section -->
-    <section id="second">
-        <div class="container">
+    <section id="accomplishments">
 
             <div class="f-area1">
-                <h1><a href="#second"><img class="logo" src="images/logo.png" alt="logo"></a></h1>
+                <h1><a href="#accomplishments"><img class="logo" src="images/logo.png" alt="logo"></a></h1>
             </div> <!-- f-area1 -->
 
-            <div class="f-area2">
+            <!-- <div class="f-area2">
                 <nav class="platform-menu">
                     <ul>
-                        <li><a href="#climate">Climate</a></li>
-                        <li><a href="#poverty">Poverty</a></li>
-                        <li><a href="#health">Health</a></li>
+                        <li><a href="#psychology">Psychology</a></li>
+                        <li><a href="#frisbee">Ultimate Frisbee</a></li>
+                        <li><a href="#compsci">Computer Science</a></li>
                     </ul>
                 </nav>
-            </div> <!-- f-area2 -->
+            </div> --> <!-- f-area2 -->
                 <h2>Platform For the 2016 Presidentital Campaign</h2>
     
 
@@ -75,86 +75,73 @@
                     
                     <div class="platform-idea">
 
-                        <h3 id="climate">Climate Action: Protecting Mother Earth and Humanity</h3>
+                        <h3 id="psychology">Psychology</h3>
 
-                        <img class="thumb" src="images/earth.png" alt="earth">
+                        <img class="thumb" src="images/professional.png" alt="I'm wearing a blazer please take me seriously">
 
-
-                        <p>Enact an emergency Green New Deal to turn the tide on climate change, revive the economy and make wars for oil obsolete. Initiate a WWII-scale national mobilization to halt climate change, the greatest threat to humanity in our history.
-                        </p>
+                        <ul>
+                            <li>Maintains a high GPA in her classes for the major</li>
+                            <li>Serves as a Research Assitant for a professor on campus</li>
+                            <li>Inducted into Psi Chi (International Honors Society for Psychology)</li>
+                            <li>Served as a Teaching Assistant for an introductory level Psychology course</li>
+                            <li>Certified to conduct research on humans in the Minimal Risk category</li>
+                        </ul>
+        
                 
                     </div> <!--platform-idea -->
 
                     <div class="platform-idea">
 
-                        <h3 id="poverty">End Poverty</h3>
+                        <h3 id="frisbee">Ultimate Frisbee</h3>
 
-                        <img class="thumb" src="images/hands.jpg" alt="hands">
+                        <img class="thumb" src="images/frisbee.jpg" alt="Look at me doing sports I'm so cool">
 
-                            <p>
-                                Guarantee economic human rights, including access to food, water, housing, and utilities, with effective anti-poverty programs to ensure every American a life of dignity. Establish the right to a living wage job.Reform public assistance to be a true safety net that empowers participants and provides a decent standard of living.
-                            </p>
+                            <ul>
+                                <li>Has been playing competitively since 2013</li>
+                                <li>Position: Handler</li>
+                                <li>College Team: University of Rochester EZs</li>
+                                <li>Club Team: Providence HOPE</li>
+                                <li>Coached a coed youth team for 2 summers</li>
+                                <li>Serves as Business Manager for the EZs</li>
+                                <li>Maintains social media accounts for the EZs</li>
+                                <li>Swears it's a real sport</li>
+                            </ul>
 
                     </div> <!--platform-idea -->
 
                     <div class="platform-idea">
 
-                        <h3 id="health">Health Care as a Right</h3>
+                        <h3 id="compsci">Computer Science</h3>
 
                         <img class="thumb" src="images/healthcare.png" alt="healthcare">
 
-                            <p>
-                                Establish an improved “Medicare for All” single-payer public health program to provide everyone with quality health care, at huge savings by eliminating the $400 billion annually spent on  the paperwork and bureaucracy of health insurance.</p>
+                        <ul>
+                            <li>Completed a Cluster in Computer Science at the University of Rochester</li>
+                            <li>Main area of focus in Web Design and Development</li>
+                            <li>Has taken CSC 170 and 174</li>
+                            <li>Knowledge in coding HTML, CSS, PHP, JavaScript, and mySQL</li>
+                            <li>For examples of websites, check out her <a href="portfolio.php">portfolio</a></li>
+                        </ul>
 
                     </div> <!--platform-idea -->
 
                 </div><!--f-area3 -->
 
                 <div class="f-area4">
-                    <img src="images/jill-point.jpg" alt="Jill Stein pointing">
-                    <p> Jill Stein points in the air like she just don't care. Alternatively, she might be about to drop the hottest mixtape of all time</p>
+                    <img src="images/hiking.jpg" alt="Hiking in Bohemian Switzerland National Park (Can you tell I studied abroad?)">
+                    <ul class="hiking">
+                        <li>Strengths: Hiking mountains in the Czech Republic</li>
+                        <li>Weaknesses: Not squniting when the sun is in my face</li>
+                    </ul>
                 </div> <!-- f-area4 -->
 
             </div><!-- .content -->
 
-       </div><!-- .container -->
-
     </section>
 
- <!-- Third Section -->
-    <section id="third">
-        <div class="container">
-
-            <h1>Colophon</h1>
-
-            
-
-                <div class="column1">
-                    <div class="card">
-                        <img src="images/alizah.jpg" alt="alizah">
-                        <h2>Alizah</h2>
-                        <p>Gathered content, worked on layout, made design and aesthetic decisions.</p>
-                    </div>
-                </div>
-
-                <div class="column2">
-                    <div class="card">
-                        <img src="images/fus.jpg" alt="jacob">
-                        <h2>Jacob</h2>
-                        
-                            <p>Chose topic, gathered content, worked on layout, was generally annoying.<p>
-                        
-                    </div>
-                </div>
-                <div class="sources">
-                    <p>The majority of the content for this website was taken from <a href="http://jill2016.com">Jill Stein's Campaign Website</a></p>
-
-                </div>
-            
 
        </div><!-- .container -->
 
-    </section>
 
 <!-- Use the following JavaScript code to do the smooth-scroll thing on the internal links -->
 <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
