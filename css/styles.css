@@ -83,12 +83,21 @@ h2 a {
 	color: #004d4d;
 }
 
+h1 img {
+	float: left;
+}
+
 h2 a:hover {
 	color: #660066;
 }
 
 img {
 	margin: 10px;
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
 }
 
 /* MODULES */
@@ -117,17 +126,13 @@ img {
 	margin-bottom: 10px;
 }
 
-.z-area1 {
-	padding: 10px;
-}
-
 .z-area2 a {
 	text-decoration: none;
 }
 
 .z-area3 p {
 	float: left;
-	max-width: 50%;
+	max-width: 65%;
 	text-align: left;
 	background-color: #00cccc;
 	margin: 10px;
@@ -140,8 +145,7 @@ img {
 	text-align: center;
 	display: inline-block;
 	float: right;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-top: 10px;
 	font-size: 2em;
 }
 
@@ -170,7 +174,7 @@ img {
 }
 
 .f-area3 {
-	max-width: 100%;
+	max-width: 65%;
 	display: inline-block;
 }
 
@@ -224,7 +228,7 @@ img {
 	text-align: center;
 	display: inline;
 	float: right;
-	max-width: 35%;
+	max-width: 28%;
 }
 
 .f-area4 a {

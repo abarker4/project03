@@ -7,21 +7,10 @@
         include "inc/nav.inc.php";
     ?>
 
-    <div class="container">
-
-    <!-- <nav class="main-menu">
-        <ul>
-            <li><a href="#first">Jill</a></li>
-            <li><a href="#second">Platform</a></li>
-            <li><a href="#third">Colophon</a></li>
-        </ul>
-    </nav> -->
-
 
     <!-- Top Section -->
     <section id="intro">
-       
-
+       <div class = "container">
         	<div class="z-area1">
             	<h1><a href="#intro"><img class="logo" src="images/logo.png" alt="logo"></a></h1>
             </div>
@@ -31,7 +20,7 @@
             </div>
 
             <div class="background-photo">
-                <img src="images/sun holding.jpg" alt="Squishing the sun like a squish a challenge">
+                <img src="images/sun holding.jpg" alt="Squishing the sun like I squish a challenge">
             </div>
 
             <div class="z-area3">
@@ -42,18 +31,12 @@
             <div class="z-area4">
                 <a href="contact-form.php">Contact Now!</a>
             </div>
-
-
-
-        
-
-    
-
+        </div> <!---container-->    
     </section>
 
     <!-- Second Section -->
     <section id="accomplishments">
-
+        <div class = "container">
             <div class="f-area1">
                 <h1><a href="#accomplishments"><img class="logo" src="images/logo.png" alt="logo"></a></h1>
             </div> <!-- f-area1 -->
@@ -67,7 +50,7 @@
                     </ul>
                 </nav>
             </div> --> <!-- f-area2 -->
-                <h2>Platform For the 2016 Presidentital Campaign</h2>
+                <h2>Look at the neat things I've done!</h2>
     
 
             <div class="content">
@@ -136,11 +119,11 @@
                 </div> <!-- f-area4 -->
 
             </div><!-- .content -->
-
+         </div><!-- .container -->    
     </section>
 
 
-       </div><!-- .container -->
+      
 
 
 <!-- Use the following JavaScript code to do the smooth-scroll thing on the internal links -->
