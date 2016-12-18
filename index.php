@@ -68,6 +68,7 @@
                             <li>Inducted into Psi Chi (International Honors Society for Psychology)</li>
                             <li>Served as a Teaching Assistant for an introductory level Psychology course</li>
                             <li>Certified to conduct research on humans in the Minimal Risk category</li>
+                            <li>Can read your mind</li>
                         </ul>
         
                 
