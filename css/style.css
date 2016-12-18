@@ -7,20 +7,20 @@ Primary style
   box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
-}
-
 body {
   font-size: 1.6rem;
   font-family: "PT Sans", sans-serif;
   color: #ffffff;
-  background-color: #262423;
+  background-color: #00cccc;
 }
 
 a {
-  color: #a8ae7e;
+  color: #004d4d;
   text-decoration: none;
+}
+
+a:hover {
+  color: #660066;
 }
 
 /* Added by me, not what the JS library did*/
@@ -728,7 +728,7 @@ li.selected .cd-project-title,
   -webkit-transition: background 0.2s;
   -moz-transition: background 0.2s;
   transition: background 0.2s;
-  color: #ffffff;
+  color: black;
   font-family: "Merriweather", serif;
   font-size: 2.4rem;
   font-weight: 700;
@@ -736,12 +736,12 @@ li.selected .cd-project-title,
   -moz-osx-font-smoothing: grayscale;
 }
 .no-touch .cd-primary-nav a:hover {
-  background-color: #a8ae7e;
+  background-color: #e6ffff;
 }
 .cd-primary-nav .cd-label {
   position: relative;
   margin: 2.4em 0 2em;
-  color: #a8ae7e;
+  color: black;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.2rem;

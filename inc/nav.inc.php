@@ -1,4 +1,4 @@
-<nav>
+<nav class="main">
 	<ul>
 		<li <?php if ($pageTitle == 'Homepage') echo 'class="active"'; ?>><a href="index.php">Home</a></li>
 		<li <?php if ($pageTitle == 'Portfolio') echo 'class="active"'; ?>><a href="portfolio.php">Portfolio</a></li>

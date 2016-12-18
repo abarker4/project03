@@ -40,84 +40,90 @@
             <div class="f-area1">
                 <h1><a href="#accomplishments"><img class="logo" src="images/logo.png" alt="logo"></a></h1>
             </div> <!-- f-area1 -->
+<!-- 
+        <div class="f-area2">
+            <nav class="platform-menu">
+                <ul>
+                    <li><a href="#psychology">Psychology</a></li>
+                    <li><a href="#frisbee">Ultimate Frisbee</a></li>
+                    <li><a href="#compsci">Computer Science</a></li>
+                </ul>
+            </nav>
 
-            <!-- <div class="f-area2">
-                <nav class="platform-menu">
-                    <ul>
-                        <li><a href="#psychology">Psychology</a></li>
-                        <li><a href="#frisbee">Ultimate Frisbee</a></li>
-                        <li><a href="#compsci">Computer Science</a></li>
-                    </ul>
-                </nav>
-            </div> --> <!-- f-area2 -->
-                <h2>Look at the neat things I've done!</h2>
-    
 
-            <div class="content">
-                <div class="f-area3">
-                    
-                    <div class="platform-idea">
+        </div> --> <!-- f-area2 -->
 
-                        <h3 id="psychology">Psychology</h3>
 
-                        <img class="thumb" src="images/professional.png" alt="I'm wearing a blazer please take me seriously">
+        <h2 class="center">Look at the neat things I've done!</h2>
 
-                        <ul>
-                            <li>Maintains a high GPA in her classes for the major</li>
-                            <li>Serves as a Research Assitant for a professor on campus</li>
-                            <li>Inducted into Psi Chi (International Honors Society for Psychology)</li>
-                            <li>Served as a Teaching Assistant for an introductory level Psychology course</li>
-                            <li>Certified to conduct research on humans in the Minimal Risk category</li>
-                            <li>Can read your mind</li>
-                        </ul>
         
+        <div class="content">
+            <div class="f-area3">
                 
-                    </div> <!--platform-idea -->
+                <div class="platform-idea">
 
-                    <div class="platform-idea">
+                    <h3 id="psychology">Psychology</h3>
 
-                        <h3 id="frisbee">Ultimate Frisbee</h3>
+                    <img class="thumb" src="images/professional.png" alt="I'm wearing a blazer please take me seriously">
 
-                        <img class="thumb" src="images/frisbee.jpg" alt="Look at me doing sports I'm so cool">
+                    <ul>
+                        <li>Maintains a high GPA in her classes for the major</li>
+                        <li>Serves as a Research Assitant for a professor on campus</li>
+                        <li>Inducted into Psi Chi (International Honors Society for Psychology)</li>
+                        <li>Served as a Teaching Assistant for an introductory level Psychology course</li>
+                        <li>Certified to conduct research on humans in the Minimal Risk category</li>
+                        <li>Can read your mind</li>
+                    </ul>
+    
+            
+                </div> <!--platform-idea -->
 
-                            <ul>
-                                <li>Has been playing competitively since 2013</li>
-                                <li>Position: Handler</li>
-                                <li>College Team: University of Rochester EZs</li>
-                                <li>Club Team: Providence HOPE</li>
-                                <li>Coached a coed youth team for 2 summers</li>
-                                <li>Serves as Business Manager for the EZs</li>
-                                <li>Maintains social media accounts for the EZs</li>
-                                <li>Swears it's a real sport</li>
-                            </ul>
+                <div class="platform-idea">
 
-                    </div> <!--platform-idea -->
+                    <h3 id="frisbee">Ultimate Frisbee</h3>
 
-                    <div class="platform-idea">
-
-                        <h3 id="compsci">Computer Science</h3>
-
-                        <img class="thumb" src="images/healthcare.png" alt="healthcare">
+                    <img class="thumb" src="images/frisbee.jpg" alt="Look at me doing sports I'm so cool">
 
                         <ul>
-                            <li>Completed a Cluster in Computer Science at the University of Rochester</li>
-                            <li>Main area of focus in Web Design and Development</li>
-                            <li>Has taken CSC 170 and 174</li>
-                            <li>Knowledge in coding HTML, CSS, PHP, JavaScript, and mySQL</li>
-                            <li>For examples of websites, check out her <a href="portfolio.php">portfolio</a></li>
+                            <li>Has been playing competitively since 2013</li>
+                            <li>Position: Handler</li>
+                            <li>College Team: University of Rochester EZs</li>
+                            <li>Club Team: Providence HOPE</li>
+                            <li>Coached a coed youth team for 2 summers</li>
+                            <li>Serves as Business Manager for the EZs</li>
+                            <li>Maintains social media accounts for the EZs</li>
+                            <li>Swears it's a real sport</li>
+                            <li>Actually though</li>
                         </ul>
 
-                    </div> <!--platform-idea -->
+                </div> <!--platform-idea -->
 
-                </div><!--f-area3 -->
+                <div class="platform-idea">
 
-                <div class="f-area4">
-                    <img src="images/hiking.jpg" alt="Hiking in Bohemian Switzerland National Park (Can you tell I studied abroad?)">
-                    <ul class="hiking">
-                        <li>Strengths: Hiking mountains in the Czech Republic</li>
-                        <li>Weaknesses: Not squniting when the sun is in my face</li>
+                    <h3 id="compsci">Computer Science</h3>
+
+                    <img class="thumb" src="images/typing.jpg" alt="some random person's hands typing on a computer">
+
+                    <ul>
+                        <li>Completed a Cluster in Computer Science at the University of Rochester</li>
+                        <li>Main area of focus in Web Design and Development</li>
+                        <li>Has taken CSC 170 and 174</li>
+                        <li>Knowledge in coding HTML, CSS, PHP, JavaScript, and mySQL</li>
+                        <li>Stats 211 was also techincally part of the cluster, so that counts for something presumably</li>
+                        <li>For examples of websites, check out her <a href="portfolio.php">portfolio</a></li>
                     </ul>
-                </div> <!-- f-area4 -->
+
+                </div> <!--platform-idea -->
+
+            </div><!--f-area3 -->
+
+            <div class="f-area4">
+                <img src="images/hiking.jpg" alt="Hiking in Bohemian Switzerland National Park (Can you tell I studied abroad?)">
+                <ul class="hiking">
+                    <li>Strengths: Hiking mountains in the Czech Republic</li>
+                    <li>Weaknesses: Not squniting when the sun is in my face</li>
+                </ul>
+            </div> <!-- f-area4 -->
 
             </div><!-- .content -->
          </div><!-- .container -->    
