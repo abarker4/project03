@@ -40,7 +40,7 @@
             <div class="f-area1">
                 <h1><a href="#accomplishments"><img class="logo" src="images/logo.png" alt="logo"></a></h1>
             </div> <!-- f-area1 -->
-<!-- 
+
         <div class="f-area2">
             <nav class="platform-menu">
                 <ul>
@@ -51,8 +51,10 @@
             </nav>
 
 
-        </div> --> <!-- f-area2 -->
+        </div> <!-- f-area2 -->
 
+
+        <div id="wrapper">
 
         <h2 class="center">Look at the neat things I've done!</h2>
 
@@ -125,8 +127,9 @@
                 </ul>
             </div> <!-- f-area4 -->
 
-            </div><!-- .content -->
-         </div><!-- .container -->    
+                </div><!-- .content -->
+            </div> <!-- #wrapper -->
+        </div><!-- .container -->    
     </section>
 
 

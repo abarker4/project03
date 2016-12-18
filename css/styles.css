@@ -178,9 +178,6 @@ footer {
 	text-decoration: none;
 }
 
-.center {
-	text-align: center;
-}
 
 .f-area3 {
 	max-width: 65%;
@@ -203,9 +200,9 @@ footer {
 	font-weight: bold;
 }
 
-
-.f-area3 h2 {
+.content h2 {
 	text-align: center;
+	display: block;
 }
 
 .platform-idea {
@@ -236,7 +233,11 @@ footer {
 	text-align: center;
 	display: inline;
 	float: right;
-	max-width: 28%;
+	max-width: 29%;
+}
+
+.f-area4 ul {
+	padding-right: 40px;
 }
 
 .hiking li {
@@ -288,4 +289,8 @@ footer {
 
 #accomplishments {
 	background-color: #e6ffff; 
+}
+
+#wrapper {
+	float: left;
 }
